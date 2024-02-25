@@ -1,0 +1,42 @@
+.Backdrop
+{
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: black;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.5s;
+
+}
+
+.showbackDrop{
+    visibility: visible;
+    opacity: 0.8; 
+}
+
+.Overlay
+{
+    z-index: 1500;
+    position: absolute;
+    padding: 20px;
+    width: 30%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #ffffff;
+    border-radius: 20px;
+  
+    visibility: hidden;
+    transition: all 0.1s;
+
+
+}
+
+.showOverlay{
+    visibility: visible;
+ 
+}
